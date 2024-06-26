@@ -36,7 +36,8 @@ Our Project is a parking mananger that can manage the specified parking in the d
 - uni_is_vacated_space: is there any space for the staff?
 - is_vacated_space: is there any space for the non-staff?
 
-
+## Testing and What i did
+for testing, because it's a very big test, we can't show it here, and it is in the documentation and the code, but i give a quick recap:because we want to test the code for edge cases and all the possible cases, we can't be sure of that we tested all the possible outcomes, so , first, by a for , we insert 400 cars to the parking, then , we write a python code that generates all the possible incoming cars, for a arbitary number of cars.so , by generating a test at random, we can be sure that we tested all the outcomes, and you can see the outcomes by runnig the code because it is about 1000 lines!!(it is very complete and thought-through).
 ## Authors
 - [Sepehr Zolfaghari](https://github.com/sepehrzoli)
 
