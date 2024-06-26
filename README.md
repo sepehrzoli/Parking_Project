@@ -19,6 +19,24 @@ Our Project is a parking mananger that can manage the specified parking in the d
 -    4.Use sensors and flags to detect car presence and update counters.
 -    5.Generate output signals to display available spots for staff and visitors.
 
+
+## Module Ports
+### Inputs
+- car_entered: shows that if a car has came to the parking.
+- is_uni_car_entered: is the entered car, for the staff?
+- car_exited: shows that if a car has exited the parking.
+- is_uni_car_exited: is the exited car, for the staff?
+- c_time : shows the hour of the current time. it's 5 bits to fit 24 numbers.
+
+### Outputs
+- uni_parked_car: number of parked cars that are for the staff.
+- parked_car: number of parked cars that are not for the staff.
+- uni_vacated_space: number of empty spaces for the staff.
+- vacated_space: number of empty spaces for the non-staff.
+- uni_is_vacated_space: is there any space for the staff?
+- is_vacated_space: is there any space for the non-staff?
+
+
 ## Authors
 - [Sepehr Zolfaghari](https://github.com/sepehrzoli)
 
