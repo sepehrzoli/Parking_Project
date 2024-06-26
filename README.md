@@ -13,12 +13,12 @@ Our Project is a parking mananger that can manage the specified parking in the d
 
 ## Implementation Details
   it has 5 major steps:
-    1.Define modules for entry, exit, and parking management.
-    2.Use registers and counters for total spaces (700) and available staff/visitor spaces.
-    3.Implement priority logic to allocate spots to staff first, then visitors.
-    4.Integrate clock-driven updates for dynamic staff capacity adjustment.
-    5.Use sensors and flags to detect car presence and update counters.
-    6.Generate output signals to display available spots for staff and visitors.
+- 1.Define modules for entry, exit, and parking management.
+-  2.Use registers and counters for total spaces (700) and available staff/visitor spaces.
+-    3.Implement priority logic to allocate spots to staff first, then visitors.
+-    4.Integrate clock-driven updates for dynamic staff capacity adjustment.
+-    5.Use sensors and flags to detect car presence and update counters.
+-    6.Generate output signals to display available spots for staff and visitors.
 
 ## Authors
 - [Sepehr Zolfaghari](https://github.com/sepehrzoli)
